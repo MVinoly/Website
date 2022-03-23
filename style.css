@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+.main {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    float: center;
+}
+
+.m-image {
+    float: right;
+    height: 50%;
+    width: 40%;
+    padding-left: 30px;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    padding-right: 20px;
+    float: left;
+    width: 600px;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    width: 250px;
+    height: 75px;
+    background-color:rgb(3, 76, 105);
+    font-size: 30px;
+    color: white;
+    font-family: 'Helvectica';
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    border: 1px solid;
+}
+
+.b-container {
+    float: right;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-image {
+    height: 200px;
+    width: 100%;
+}
+
+.b-top {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.footer {
+    padding-top: 200px;
+    background-color: black;
+}
+
+.m-image:hover {
+    transform:rotate(180deg);
+}
+
+.header {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+}
+
+.ul-li {
+    text-align: center;
+    height: 25px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    border: rgb(3, 81, 105) solid 1px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: black;
+
+}
+
+ul li a {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border:rgb(3, 81, 105) solid 1px;
+    display: block;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: rgb(3, 81, 105);
+}
+
+ul li a {
+    display: none;
+}
+
+.ul-li:hover ~ ul li a{
+    display: block;
+    background-color: rgb(3, 81, 105);
+}
+
