@@ -1,3 +1,3 @@
 function myFunction () {
-    alert ("Hire my Daddy!!");
+    alert ("Have a Great Day!!!");
 }
