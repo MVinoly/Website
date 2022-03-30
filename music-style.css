@@ -83,4 +83,5 @@ html {
 
   .home-button:hover {
     color: cadetblue;
+    text-decoration: none;
   }
