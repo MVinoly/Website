@@ -8,56 +8,38 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Personal Website</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body class="main">
-    <nav>
-        <ul>
-            <li class="ul-li">Contact Me</li>
-            <li><a href="https://github.com/MVinoly">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/michael-vinoly-5909ab224/">LinkedIn</a></li>
-            <li><a href="#">michaelvinoly78@gmail.com</a></li>
-        </ul>
-        <ul>
-            <li class="ul-li-box-two">Pages</li>
-            <li><a href="music.html">Music w/ Lyrics</a></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
+<body>
     <div class="header">
-        <h1>Michael's Website</h1>
-    </div>
-    <div class="b-top">
-        <image src="Images/binary.jpg" class="l-image" />
-    </div>
-    <div class="container">
-        <p class="text">A little bit about myself. <br> <br>I was working as a plumber for most of my professional
-            career, but as the pandemic progressed I was working less and less. I needed to find a better way to support
-            my family, I started looking for jobs where I could succeed. That is when I was encouraged to take schooling
-            to become a full-stack developer. I enrolled
-            and completed a full stack development course. I have always been good with technology and had a real
-            passion for it. I find web development and programming in general a very difficult and rewarding challenge,
-            there always seems to be more to learn and increasingly interesting ways to execute different tasks. I
-            continue to work on improving myself and my ability to code. Thank you for taking the time to read this!</p>
-        <image src="Images/programming.jpg" class="m-image" />
-    </div>
-    <div class="b-container">
-        <button class="buttons" onclick="myFunction()">Click Me!!</button>
-    </div>
-    <div class="footer">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/51d05n114d07/calgary/" data-label_1="CALGARY"
-            data-label_2="WEATHER" data-font="Fira Sans" data-icons="Climacons Animated" data-theme="dark">CALGARY
-            WEATHER</a>
-        <script>
-            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-        </script>
-    </div>
-    <div class="footer-image">
-        <img src="Images/sci-fi.webp" />
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>Contact Me</button>
+            <div class="dropdown-menu information-grid">
+                <div>
+                    <div class="dropdown-heading" style="font-size: 24px">Contact Links</div>
+                    <div class="dropdown-links" style="margin-top: 5px">
+                        <a href="https://github.com/MVinoly" class="link" style="font-size: 20px">Github</a>
+                        <a href="https://www.linkedin.com/in/michael-vinoly-5909ab224/" class="link" style="font-size: 20px">LinkedIn</a>
+                        <a href="#" class="link" style="font-size: 20px">michaelvinoly78@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="./about.html" class="link">About Me</a>
+        <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>Projects</button>
+            <div class="dropdown-menu information-grid">
+                <div>
+                    <div class="dropdown-heading" style="font-size: 24px">Music</div>
+                    <div class="dropdown-links">
+                        <a href="./music.html" class="link" style="font-size: 20px; margin-top: 5px">Music w/ Lyrics</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
