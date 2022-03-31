@@ -29,7 +29,7 @@ function _all(query) {
 
 let songList = [
     {
-        thumbnail: "Skald-fluga.jpg",
+        thumbnail: "Skald-run.jpg",
         audio: "SKÁLD-Flúga.mp3",
         songname: "Flúga",
         artistname: "SKÁLD"
@@ -41,6 +41,20 @@ let songList = [
         songname: "Rún",
         artistname: "SKÁLD"
     },
+
+    {
+        thumbnail: "RickAstley.png",
+        audio: "NeverGonnaGiveYouUp.mp3",
+        songname: "Never Gonna Give You Up",
+        artistname: "Rick Astley"
+    },
+
+    {
+        thumbnail: "weirdal.jpg",
+        audio: "Africa.mp3",
+        songname: "Africa",
+        artistname: "Weird Al feat. Weezer"
+    }
 ];
 
 let currentSongIndex = 0;
