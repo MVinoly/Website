@@ -33,6 +33,10 @@ html,body {
       border: none;
       color: white;
       cursor: pointer;
+      background: #5D5FEF;
+      width: 150px;
+      transform: skew(-10deg);
+      height: 50px;
   }
 
   .title1 {
