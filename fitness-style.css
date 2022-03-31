@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+html,body {
+    margin: 0;
+    color: white;
+    font-family: Ubuntu;
+  }
+  
+  body {
+    background: linear-gradient(90deg, rgba(50, 50, 123, 0.5) 0%, rgba(50, 50, 123, 0.2) 100%);
+  }
+  
+  .bg {
+    width: 100vw;
+    height: 100vh;
+    background: url("https://assets.codepen.io/6060109/fitness-app-background_1.png") right top no-repeat;
+    background-size: cover;
+    opacity: .4;
+    position: fixed;
+    z-index: -2;
+  }
+  
+  .tracker {
+    padding-top: 30px;
+  }
+
+  .home-button {
+      height: 30px;
+      margin-right: 20px;
+      font-family: Ubuntu;
+      font-size: 20px;
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+  }
+
+  .title1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .title {
+    height: 80px;
+    background: #5D5FEF;
+    width: 300px;
+    transform: skew(-10deg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  .day-row {
+    width: 700px;
+    height: 100px;
+    background-color: rgba(255,255,255,.2);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    text-align: right;
+  }
+  
+  .lifts {
+    display: flex;
+  }
+  
+  .day-row > h3 {
+    margin-right: 30px;
+    width: 70px;
+  }
+  
+  .day-row img {
+    margin: 0 10px;
+  }
+  
+  ul {
+    display: flex;
+    width: 600px;
+    padding: 0 100px;
+    margin-left: 20px;
+  }
+  
+  li {
+    list-style-type: none;
+    width: 200px;
+    text-align: center;
+    margin-left: 19px;
+  }
+  
+  .lifts {
+    width: 100%;
+  }
+  
+  .tues .lifts {
+    justify-content: flex-end;
+  }
+  .weds .lifts {
+    justify-content: space-between;
+  }
+  .thurs .lifts {
+    justify-content: space-around;
+    margin: 0 55px;
+    padding-right: 7px;
+  }
+  .fri .lifts {
+    justify-content: center;
+  }
+  .sat .lifts {
+    justify-content: space-between;
+  }
+
+  .sun .lifts {
+    justify-content: space-between;
+  }
+
+  .sun1 {
+    padding-left: 10px;
+}
