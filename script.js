@@ -54,7 +54,36 @@ let songList = [
         audio: "Africa.mp3",
         songname: "Africa",
         artistname: "Weird Al feat. Weezer"
-    }
+    },
+
+    {
+        thumbnail: "dragonage.jpg",
+        audio: "Trespasser.mp3",
+        songname: "Trespasser",
+        artistname: "Trevor Morris"
+    },
+
+    {
+        thumbnail: "Skald-run.jpg",
+        audio: "Fimbulvetr.mp3",
+        songname: "Fimbulvetr",
+        artistname: "SKÁLD"
+    },
+
+    {
+        thumbnail: "Skald-run.jpg",
+        audio: "Sólarljóð.mp3",
+        songname: "Sólarljóð",
+        artistname: "SKÁLD"
+    },
+
+    {
+        thumbnail: "Skald-run.jpg",
+        audio: "Hafgerðingar.mp3",
+        songname: "Hafgerðingar",
+        artistname: "SKÁLD"
+    },
+
 ];
 
 let currentSongIndex = 0;

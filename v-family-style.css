@@ -1,0 +1,48 @@
+* {
+    background-color: black;
+}
+
+.header {
+    color : white;
+    font-family: Lucida handwriting;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+}
+
+.owner {
+    color: orangered;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.owner img {
+    height: 400px;
+    width: 400px;
+}
+
+p {
+    color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+.home-button {
+    color: white;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    margin-right: 30px;
+}
+
+.home-button:hover {
+    color: orangered;
+}
+
+.header h1 {
+    position: relative;
+    left: 34%
+}
